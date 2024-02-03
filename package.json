@@ -1,0 +1,19 @@
+{
+    "name": "scc-demo",
+    "author": "momimomo",
+    "version": "1.0.0",
+    "private": true,
+    "browserslist": "> 0.5%, last 2 versions, not dead",
+    "homepage": "https://momimomo.github.io/scc-demo/",
+    "license": "MIT",
+    "dependencies": {
+        "gh-pages": "^5.0.0",
+        "three": "^0.150.1",
+        "wavefunctioncollapse": "^2.0.0"
+    },
+    "scripts": {
+        "build": "parcel build src/index.html --public-url https://momimomo.github.io/scc-demo/",
+        "dev": "parcel src/index.html",
+        "deploy": "gh-pages"
+    }
+}
